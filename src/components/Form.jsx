@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import "./Form.css";
 
 const Form = () => {
 	const onSubmit = async (event) => {
@@ -39,16 +40,13 @@ const Form = () => {
 			<h2>Contact Us</h2>
 			<form onSubmit={onSubmit}>
 				<div className="form-group">
-					<label htmlFor="name">Name</label>
-					<input type="text" name="name" id="name" required />
+					<input type="text" name="name" id="name" placeholder="Enter your name" required />
 				</div>
 				<div className="form-group">
-					<label htmlFor="email">Email</label>
-					<input type="email" name="email" id="email" required />
+					<input type="email" name="email" id="email" placeholder="Enter your email" required />
 				</div>
 				<div className="form-group">
-					<label htmlFor="message">Message</label>
-					<textarea name="message" id="message" required></textarea>
+					<textarea name="message" id="message" placeholder="Enter your message" required></textarea>
 				</div>
 				<button type="submit">Submit Form</button>
 			</form>
