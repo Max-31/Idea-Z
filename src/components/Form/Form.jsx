@@ -40,13 +40,30 @@ const Form = () => {
 			<h2>Contact Us</h2>
 			<form onSubmit={onSubmit}>
 				<div className="form-group">
-					<input type="text" name="name" id="name" placeholder="Enter your name" required />
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Enter your name"
+						required
+					/>
 				</div>
 				<div className="form-group">
-					<input type="email" name="email" id="email" placeholder="Enter your email" required />
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter your email"
+						required
+					/>
 				</div>
 				<div className="form-group">
-					<textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+					<textarea
+						name="message"
+						id="message"
+						placeholder="Enter your message"
+						required
+					></textarea>
 				</div>
 				<button type="submit">Submit Form</button>
 			</form>

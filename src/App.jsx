@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Form from "./components/form";
+import Form from "./components/Form/Form";
 import "./App.css";
 
 const App = () => {
